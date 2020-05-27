@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Applied Linear Regression Models 
 
 You can use the [editor on GitHub](https://github.com/leylaozsen/alrm.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
