@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: Applied Linear Regression Models using R and Excel
 description: "Feel free to bookmark this page to be able to use R and Excel for Applied Linear Regression Models. 
-The goal of this page is not to teach how R or Excel works, both of which are well documented online. 
-This page is maintaned for learners of Applied Linear Regression Models and to supplement their learning with ready to use 
-Excel and R files." 
+This page is maintained for learners of Applied Linear Regression Models to simply supplement their learning with ready to use 
+Excel and R files. The goal here is not necessarily to explain statistical concepts or how R works, both of which 
+are well docucmented already online." 
