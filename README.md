@@ -2,11 +2,13 @@
 
 Here you will find the R Code and supplementary Excel files for the book titled "Applied Linear Regression Models" by Kutner, Nachtsheim and Neter. All page numbers and references for the examples are based on the *4th edition* of the Applied Linear Regression Models (ALRM) book.
 
+### Chapter 1
+
 [editor on GitHub](https://github.com/leylaozsen/alrm.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
