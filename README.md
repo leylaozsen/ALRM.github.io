@@ -4,7 +4,12 @@ Here you will find the R Code and supplementary Excel files for the book titled 
 
 ## Chapter 1
 
-### Toluca Company Example on Page 19 
+### Toluca Company Example on Page 19, Figure 1.10, Table 1.1., and Modified Figure 1.11 
+
+First rule of statistics is to always plot the data. Here are two R-scripts that will allow you to create a scatter plot. The first script uses base R. The second script uses the Tidyverse pacakge in R. See 
+
+
+
 
 [editor on GitHub](https://github.com/leylaozsen/alrm.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
