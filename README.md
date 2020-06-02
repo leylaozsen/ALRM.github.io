@@ -8,7 +8,10 @@ Data sets for each chapter of ALRM 4th edition can be accessed at this link: www
 
 ### Toluca Company Example on Page 19
 
-The data set for this example can be found under Chapter 1 files and is titled "CH01TA01". And of course, since the first rule of Statistics is to always plot the data, that's where we will start. Here are two R-scripts that will allow you to create a scatter plot for the Toluca Example. 
+The data set for this example can be found under Chapter 1 files and is titled "CH01TA01". And of course, since the first rule of Statistics is to always plot the data, that's where we will start. 
+
+### Toluca Company Example Figure 1.10(a) on Page 20 
+Here are two R-scripts that will allow you to create a scatter plot for the Toluca Example. 
 
 
 
@@ -43,7 +46,7 @@ plot(Tolucadata$LotSize, Tolucadata$WorkHours, ylab="Work Hours", xlab="LotSize"
 
 ``` 
 
-The second script uses the Tidyverse pacakge in R. See 
+The second script uses the Tidyverse pacakge in R. 
 
 
 
