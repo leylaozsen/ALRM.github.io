@@ -12,13 +12,38 @@ The data set for this example can be found under Chapter 1 files and is titled "
 
 
 
-The first script uses base R. The second script uses the Tidyverse pacakge in R. See 
-
+This first script uses base R. 
 ```markdown
 
-Hello code 
+#This R script uses base R
+#See the example about Toluca in the ALRM textbook
+
+#first clean the global environment & the console 
+rm(list=ls())
+cat("\014")
+
+#next import the data from the text file
+TolucaDataALSM <- read.table("TolucaDataALSM.txt", sep="", header=FALSE)
+
+#Alternatively, click "Import Dataset" under the Environment tab. 
+
+Tolucadata <- TolucaDataALSM    #changes the name of the data frame
+names(Tolucadata)[1] <- "LotSize"  #changes the column name for V1
+names(Tolucadata)[2] <- "WorkHours"  #changes the column name for V2
+
+#create a scatterplot to see if there is a linear relationship
+plot(Tolucadata$LotSize, Tolucadata$WorkHours, ylab="Work Hours", xlab="LotSize",
+     main="Toluca Company: Refrigeration Manufacturer") 
+
+#plot(Tolucadata$LotSize, Tolucadata$WorkHours) also creates a scatterplot. 
+#Note that the plot function assumes the first variable, i.e.,"LotSize", 
+#to be the independent variable; consequently, the second variable is 
+#assumed to be the dependent variable. 
+
 
 ``` 
+
+The second script uses the Tidyverse pacakge in R. See 
 
 
 
