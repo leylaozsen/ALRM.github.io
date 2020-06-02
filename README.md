@@ -13,8 +13,6 @@ The data set for this example can be found under Chapter 1 files and is titled "
 ### Toluca Company Example Figure 1.10(a) on Page 20 
 Here are two R-scripts that will allow you to create a scatter plot for the Toluca Example. 
 
-
-
 This first script uses base R. 
 ```markdown
 
