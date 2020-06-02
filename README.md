@@ -2,13 +2,17 @@
 
 Here you will find the R Code and supplementary Excel files for the book titled "Applied Linear Regression Models" by Kutner, Nachtsheim and Neter. All page numbers for the examples are based on the *4th edition* of the Applied Linear Regression Models (ALRM) book.
 
-Data sets for each chapter can be accessed at this link: http://www.cnachtsheim-text.csom.umn.edu 
+Data sets for each chapter of ALRM 4th edition can be accessed at this link: www.cnachtsheim-text.csom.umn.edu You may want to bookmark this link because we will reference it below. 
 
 ## Chapter 1
 
-### Toluca Company Example on Page 19, Figure 1.10, Table 1.1., and Modified Figure 1.11 
+### Toluca Company Example on Page 19
 
-First rule of statistics is to always plot the data. Here are two R-scripts that will allow you to create a scatter plot for the Toluca Example. The data set for ToThe first script uses base R. The second script uses the Tidyverse pacakge in R. See 
+The data set for this example can be found under Chapter 1 files and is titled "CH01TA01". And of course, since the first rule of Statistics is to always plot the data, that's where we will start. Here are two R-scripts that will allow you to create a scatter plot for the Toluca Example. 
+
+
+
+The first script uses base R. The second script uses the Tidyverse pacakge in R. See 
 
 
 
