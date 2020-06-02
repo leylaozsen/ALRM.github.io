@@ -1,9 +1,10 @@
 ---
-layout: default
 title: Buttons
-parent: Applied Linear Regression Models using R and Excel
-nav_order: 2
+has_children: true
 ---
+
+
+
 
 # Welcome to Applied Linear Regression Models 
 
