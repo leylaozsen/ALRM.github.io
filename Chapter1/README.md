@@ -12,7 +12,7 @@ And of course, since the first rule of Statistics is to always plot the data, th
 
 ```markdown
 
-#This R script uses base R
+* This R script uses base R
 
 #first clean the global environment & the console 
 rm(list=ls())
