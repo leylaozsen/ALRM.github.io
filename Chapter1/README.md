@@ -31,15 +31,17 @@ names(Tolucadata)[1] <- "LotSize"  #changes the column name for V1
 names(Tolucadata)[2] <- "WorkHours"  #changes the column name for V2
 
 #create a scatterplot to see if there is a linear relationship
+#the line below will create a scatter plot, generating Figure 1.10(a)
 plot(Tolucadata$LotSize, Tolucadata$WorkHours, ylab="Work Hours", xlab="LotSize",
      main="Toluca Company: Refrigeration Manufacturer") 
 
 #plot(Tolucadata$LotSize, Tolucadata$WorkHours) also creates a scatterplot. 
 #Note that this plot function assumes the first variable, i.e.,"LotSize", 
 #to be the independent variable; consequently, the second variable is 
-#assumed to be the dependent variable. So pay attention to the arguments 
-#or better use the cleaner line of code and explicity define x and y axis
-#by entering the values for ylab and xlab. 
+#assumed to be the dependent variable. So pay attention to the order of 
+#the arguments for the plot function; alternatively use the cleaner line 
+#of code and explicity define x and y axis by entering the values for 
+#ylab and xlab as shown above. 
 ``` 
 
 
