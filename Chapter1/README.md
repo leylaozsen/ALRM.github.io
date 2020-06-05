@@ -41,3 +41,14 @@ plot(Tolucadata$LotSize, Tolucadata$WorkHours, ylab="Work Hours", xlab="LotSize"
 
 The second script uses the Tidyverse pacakge in R. 
 
+```markdown
+
+#Before you run the code, you will need to installation tidyverse and ggplot2 packages 
+
+#First clean the global environment & the console 
+rm(list=ls())
+cat("\014")
+
+
+```
+
