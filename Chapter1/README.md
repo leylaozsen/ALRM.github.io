@@ -46,7 +46,7 @@ plot(Tolucadata$LotSize, Tolucadata$WorkHours, ylab="Work Hours", xlab="LotSize"
 ``` 
 
 
-2. The second script uses the Tidyverse pacakge in R. 
+2. The second script uses the Tidyverse package in R. 
 
 ```markdown
 
@@ -77,4 +77,38 @@ plot <- ggplot(TolucaData, aes(LotSize,Hours))
 plot + geom_point()
 
 ```
+
+## Toluca Company Example Figure 1.10(b) on Page 20 
+
+Now, we will add the fitted regression line to the scatter plot to generate Figure 1.10(b)
+
+1. This first script uses base R. 
+
+```markdown
+
+#fit a linear model
+lmfit <- lm(WorkHours~LotSize, data=Tolucadata) 
+# for lmfit function, the first argument is the response variable 
+# and the second argument is the independent variable
+# the order is switched from the plotfunction 
+
+#add the regression line to the plot
+abline(lmfit)
+
+```
+
+2. The second script uses the Tidyverse package in R.
+
+```markdown
+
+#add the regression line to the plot generating Figure 1.10.b
+ggplot(data = TolucaData) +
+  geom_point(mapping = aes(x=LotSize, y=Hours)) +
+  geom_smooth(mapping = aes(x=LotSize, y=Hours), method=lm)
+  
+  
+```
+  
+
+
 
