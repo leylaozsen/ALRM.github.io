@@ -3,7 +3,7 @@
 
 ### Toluca Company Example on Page 19
 
-The data set for this example is titled "CH01TA01". You will find "CH01TA01" at this link [DataSetsForAllChapters](http://www.cnachtsheim-text.csom.umn.edu). You may want to bookmark this link because we will reference this link for all the chapters. 
+The data set for this example is titled "CH01TA01". You will find "CH01TA01" at this link [DataSetsForAllChapters](http://www.cnachtsheim-text.csom.umn.edu). You may want to bookmark this link because we will reference this link for all  chapters. 
 
 ### Toluca Company Example Figure 1.10(a) on Page 20 
 And of course, since the first rule of Statistics is to always plot the data, that's where we will start. Here are two R-scripts that will allow you to create a scatter plot for the Toluca Example. 
