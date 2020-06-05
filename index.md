@@ -1,3 +1,10 @@
+---
+title: PAGE TITLE HERE
+layout: template
+filename: NAME OF THIS .md FILE HERE
+--- 
+
+
 # Welcome to Applied Linear Regression Models 
 
 Here you will find the R Code and supplementary Excel files for the book titled "Applied Linear Regression Models" by Kutner, Nachtsheim and Neter. All page numbers for the examples are based on the *4th edition* of the Applied Linear Regression Models (ALRM) book.
