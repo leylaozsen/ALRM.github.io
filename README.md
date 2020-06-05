@@ -48,7 +48,7 @@ The second script uses the Tidyverse pacakge in R.
 
 
 
-[editor on GitHub](https://github.com/leylaozsen/alrm.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[Chapter1](https://github.com/leylaozsen/alrm.github.io/blob/master/chapter%201) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
