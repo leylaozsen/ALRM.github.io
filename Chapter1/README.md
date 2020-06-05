@@ -12,7 +12,6 @@ This first script uses base R.
 ```markdown
 
 #This R script uses base R
-#See the example about Toluca in the ALRM textbook
 
 #first clean the global environment & the console 
 rm(list=ls())
@@ -20,10 +19,14 @@ cat("\014")
 
 #next import the data from the text file
 TolucaDataALSM <- read.table("TolucaDataALSM.txt", sep="", header=FALSE)
-
 #Alternatively, click "Import Dataset" under the Environment tab. 
 
 Tolucadata <- TolucaDataALSM    #changes the name of the data frame
+
+#take a look at the summary view of the data we imported
+str(TolucaDataALSM)
+#You will see that the columns don't have names so let's name the columns
+
 names(Tolucadata)[1] <- "LotSize"  #changes the column name for V1
 names(Tolucadata)[2] <- "WorkHours"  #changes the column name for V2
 
@@ -36,18 +39,29 @@ plot(Tolucadata$LotSize, Tolucadata$WorkHours, ylab="Work Hours", xlab="LotSize"
 #to be the independent variable; consequently, the second variable is 
 #assumed to be the dependent variable. 
 
-
 ``` 
 
 The second script uses the Tidyverse pacakge in R. 
 
 ```markdown
 
-#Before you run the code, you will need to installation tidyverse and ggplot2 packages 
+# Before you run the code, you will need to install and load tidyverse and ggplot2 packages 
+install.packages("tidyverse")
+install.packages("ggplot2")
+library(tidyverse)
+library(ggplot2)
+
 
 #First clean the global environment & the console 
 rm(list=ls())
 cat("\014")
+
+#next import the data from the text file
+TolucaData <- read.table("CH01TA01.txt", sep="", header=FALSE)
+
+#take a look at the summary view of the data we imported
+glimpse(TolucaData)
+
 
 
 ```
