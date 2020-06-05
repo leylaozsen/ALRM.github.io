@@ -122,3 +122,22 @@ summary(lmfit)
 
 The Excel file illustrating the computations shown in Table 1.1. and 1.2. can be accessed [here](https://github.com/leylaozsen/alrm.github.io/blob/master/Chapter1/TolucaRegressionTables.xlsx). The computations for the example on pages 21 and 22 are also included in this Excel file. 
 
+
+## Toluca Company Example Predicting Mean Number of Work Hours Required For Various Lot Size Values
+
+Example on page 21 computes the mean number of work hours required for when the lot size is 65. And on page 22, 
+
+#Compute the mean number of work hours required when the lot size is 65, see page 21
+#and for when the lot size is 80, see page 22
+#first create a data frame with the Lot Size values
+newlothours <- data.frame(LotSize=c(65,80))
+#note that variable name in the data frame above should be the same as 
+#as the variable in the linear regression model. 
+
+#predict for Lot Size values of 65 and 80
+predict(toluca_model,newlothours)
+
+#predict for Lot Size values of 100
+predict(toluca_model, data.frame(LotSize=100))
+
+
