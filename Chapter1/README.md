@@ -108,7 +108,13 @@ ggplot(data = TolucaData) +
   
   
 ```
-  
 
+## Toluca Company Example Figure 1.11 on Page 20 
+ 
+```markdown
 
+#finally, summarize the output of the regression, generating Figure 1.11
+summary(lmfit) 
+
+```
 
