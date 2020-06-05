@@ -126,6 +126,7 @@ The Excel file illustrating the computations shown in Table 1.1. and 1.2. can be
 ## Toluca Company Example Predicting Mean Number of Work Hours Required For Various Lot Size Values
 
 Example on page 21 computes the mean number of work hours required for when the lot size is 65. And on page 22, 
+it's computed for when the lot size is 80. The R script below shows how to compute 
 
 ```markdown
 #Compute the mean number of work hours required when the lot size is 65, see page 21
@@ -133,7 +134,7 @@ Example on page 21 computes the mean number of work hours required for when the 
 #first create a data frame with the Lot Size values
 newlothours <- data.frame(LotSize=c(65,80))
 #note that variable name in the data frame above should be the same as 
-#as the variable in the linear regression model. 
+#as the variable in the linear regression model that we have built. 
 
 #predict for Lot Size values of 65 and 80
 predict(toluca_model,newlothours)
