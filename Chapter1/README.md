@@ -35,11 +35,13 @@ plot(Tolucadata$LotSize, Tolucadata$WorkHours, ylab="Work Hours", xlab="LotSize"
      main="Toluca Company: Refrigeration Manufacturer") 
 
 #plot(Tolucadata$LotSize, Tolucadata$WorkHours) also creates a scatterplot. 
-#Note that the plot function assumes the first variable, i.e.,"LotSize", 
+#Note that this plot function assumes the first variable, i.e.,"LotSize", 
 #to be the independent variable; consequently, the second variable is 
-#assumed to be the dependent variable. 
-
+#assumed to be the dependent variable. So pay attention to the arguments 
+#or better use the cleaner line of code and explicity define x and y axis
+#by entering the values for ylab and xlab. 
 ``` 
+
 
 The second script uses the Tidyverse pacakge in R. 
 
