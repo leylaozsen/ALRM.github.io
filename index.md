@@ -1,6 +1,6 @@
 ---
 title: PAGE TITLE HERE
-filename: NAME OF THIS .md FILE HERE
+filename: index.md
 --- 
 
 
