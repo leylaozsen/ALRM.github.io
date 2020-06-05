@@ -120,5 +120,5 @@ summary(lmfit)
 
 ## Toluca Company Example Tables 1.1. and 1.2 on Pages 19 and 20
 
-The Excel file illustrating the computations shown in Table 1.1. and 1.2. can be accessed [here](http://www.cnachtsheim-text.csom.umn.edu). The computations for the example on pages 21 and 22 are also included in this Excel file. 
+The Excel file illustrating the computations shown in Table 1.1. and 1.2. can be accessed [here](https://github.com/leylaozsen/alrm.github.io/blob/master/Chapter1/TolucaRegressionTables.xlsx). The computations for the example on pages 21 and 22 are also included in this Excel file. 
 
