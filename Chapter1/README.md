@@ -71,8 +71,7 @@ glimpse(TolucaData)
 names(TolucaData) <-  c("LotSize", "Hours")
 glimpse(TolucaData) 
 
-#create a scatterplot to see if there is a linear relationship between
-#LotSize and Hours. 
+#create a scatterplot to see if there is a linear relationship between LotSize and Hours. 
 #The line below will create a scatter plot, generating Figure 1.10.a.
 plot <- ggplot(TolucaData, aes(LotSize,Hours)) 
 plot + geom_point()
