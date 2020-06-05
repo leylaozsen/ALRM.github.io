@@ -8,7 +8,7 @@ The data set for this example is titled "CH01TA01". You will find "CH01TA01" at 
 ## Toluca Company Example Figure 1.10(a) on Page 20 
 And of course, since the first rule of Statistics is to always plot the data, that's where we will start. Here are two R-scripts that will allow you to create a scatter plot for the Toluca Example. 
 
-* This first script uses base R. 
+1. This first script uses base R. 
 
 ```markdown
 
