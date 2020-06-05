@@ -46,7 +46,7 @@ plot(Tolucadata$LotSize, Tolucadata$WorkHours, ylab="Work Hours", xlab="LotSize"
 ``` 
 
 
-The second script uses the Tidyverse pacakge in R. 
+2. The second script uses the Tidyverse pacakge in R. 
 
 ```markdown
 
