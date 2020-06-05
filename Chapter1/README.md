@@ -127,6 +127,7 @@ The Excel file illustrating the computations shown in Table 1.1. and 1.2. can be
 
 Example on page 21 computes the mean number of work hours required for when the lot size is 65. And on page 22, 
 
+```markdown
 #Compute the mean number of work hours required when the lot size is 65, see page 21
 #and for when the lot size is 80, see page 22
 #first create a data frame with the Lot Size values
@@ -140,4 +141,5 @@ predict(toluca_model,newlothours)
 #predict for Lot Size values of 100
 predict(toluca_model, data.frame(LotSize=100))
 
+```
 
